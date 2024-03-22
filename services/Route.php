@@ -15,7 +15,7 @@ class Router
             }
             else if($get["route"] === "ajouter-au-panier")
             {
-                $sc->addToCart() ;
+                $sc->addToCart();
             }
             else if($get["route"] === "panier")
             {
